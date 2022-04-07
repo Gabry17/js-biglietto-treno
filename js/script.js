@@ -9,8 +9,10 @@ console.log(age, typeof(age));
 
 //ELABORAZIONE
 //calcolare prezzo biglietto (0,21€ / km)
+
 const normalPrice = 0.21 * km;
 console.log(normalPrice);
+
 //se la persona a meno di 18 anni sconto 20%
 //se e over 65 sconto 40%
 
@@ -27,5 +29,5 @@ if (age < 18) {
 }
 
 
-//output
+//OUTPUT
 document.getElementById('ticketPrice').innerHTML = finalPrice.toFixed(2);

@@ -1,0 +1,12 @@
+.container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 3em;
+    padding: 1em;
+}
+
+#ticketPrice{
+    font-size: 3em;
+}
